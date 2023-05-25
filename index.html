@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SANGAMESH FITNESS</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS reset */
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/gym.jpg');
+        background-position: left;
+      background-repeat: no-repeat;
+      background-size: cover;
+        height: 1000px;
+    
+    }
+    .left{
+        position: absolute;
+        top: 11px;
+        left: 30px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+    .mid{
+        display: block;
+    width: 52%;
+    margin: 24px auto;
+    top: 20px;
+    /* border: 2px solid rgb(190, 197, 83); */
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid gold; */
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+         font-size:23px ;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    
+    }
+    .navbar li a:active{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        text-decoration: underline;
+        color: greenyellow;
+    
+    }
+    .navbar li a:hover{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+        text-decoration: underline;
+        color: rgb(54, 163, 206);
+    }
+    .left img{
+        width: 140px;
+    height: 119px;
+    }
+    .left div{
+        text-align: center;
+    FONT-SIZE: 17PX;
+    FONT-STYLE: oblique;
+    line-height: 1px;
+}
+    }
+    .btn{
+        margin: 0px 9px;
+        color: honeydew;
+        background-color: #333333;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        font-size: 15px;
+        cursor: pointer;
+
+    }
+    .btn:hover{
+        background-color: rgb(58, 99, 116);
+    }
+    .container{
+        border: 2px solid #bacbcd;
+    margin: 32px 341px;
+    padding: 3px 162px;
+    width: 42%;
+    border-radius: 44px;
+    }
+    h1{
+        font-size: 21px;
+        text-align: center;
+    }
+    .form-group input{
+        text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid rgb(165, 55, 55);
+    margin: 3px auto;
+    font-size: 16px;
+    font-family: cursive;
+    border-radius: 11px;
+    }
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto;
+
+
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+         <div class="left">
+             <img src="img/logo.webp" alt="">
+             <div>SANGAMESH FITNESS</div>
+
+        </div>
+        <!-- mid box is for nav bar -->
+        <div class="mid">
+            
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                 <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+               
+            </ul>
+        </div>
+        <!-- right box is for search/buttons  -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email us</button></div>
+    </header>
+    <div class="container">
+      <h1>JOIN THE BEST GYM IN JHARASANGAM ....NOW</h1>
+      <form action="noaction.php">
+          <div class="form-group">
+              <input type="text" name="" placeholder="Enter your Name">
+          </div>
+          <div class="form-group">
+              <input type="text" name="" placeholder="Enter your Age">
+          </div>
+          <div class="form-group">
+              <input type="text" name="" placeholder="Enter your Gender">
+          </div>
+          <div class="form-group">
+              <input type="text" name="" placeholder="Enter your Address">
+          </div>
+          <button class="btn">Submit</button>
+      </form>
+    </div>
+</body>
+</html>
